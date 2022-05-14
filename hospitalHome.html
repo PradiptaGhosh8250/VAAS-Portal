@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>VAAS Portal</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS 
+    ============================================ -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/vendor/aos.css">
+    <link rel="stylesheet" href="assets/css/plugins/feature.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="template-color-1 spybody white-version" data-spy="scroll" data-target=".navbar-example2" data-offset="150">
+
+    <!-- Start Header -->
+    <header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
+        <div class="header-wrapper rn-popup-mobile-menu m--0 row align-items-center">
+            <!-- Start Header Left -->
+            <div class="col-lg-2 col-6">
+                <div class="header-left">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/images/vaas logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Header Left -->
+            <!-- Start Header Center -->
+            <div class="col-lg-10 col-6">
+                <div class="header-center">
+                    <nav id="sideNav" class="mainmenu-nav navbar-example2 d-none d-xl-block">
+                        <!-- Start Mainmanu Nav -->
+                        <ul class="primary-menu nav nav-pills">
+                            <!--
+                            <li class="nav-item"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portal</a></li>
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#features">Features</a></li>
+                            
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#testimonial">Clients</a></li>
+                            
+
+                            <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
+                            -->
+                        </ul>
+                        <!-- End Mainmanu Nav -->
+                    </nav>
+                    <!-- Start Header Right  -->
+                    <div class="header-right">
+                        <a class="rn-btn" id = "sign-out" target="_blank">
+                           <span>Sign Out</span>
+                        </a>
+                        <div class="hamberger-menu d-block d-xl-none">
+                            <i id="menuBtn" class="feather-menu humberger-menu"></i>
+                        </div>
+                        <div class="close-menu d-block">
+                            <span class="closeTrigger">
+                                <i data-feather="x"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- End Header Right  -->
+
+                </div>
+            </div>
+            <!-- End Header Center -->
+        </div>
+    </header>
+    <!-- End Header Area -->
+    <!-- Start Popup Mobile Menu  -->
+    <div class="popup-mobile-menu">
+        <div class="inner">
+            <div class="menu-top">
+                <div class="menu-header">
+                    <a class="logo" href="index.html">
+                        <!-- <img src="assets/images/logo/logos-circle.png" alt="Personal Portfolio"> -->
+                    </a>
+                    <div class="close-button">
+                        <button class="close-menu-activation close"><i data-feather="x"></i></button>
+                    </div>
+                </div>
+                <p class="discription">Inbio is a personal portfolio template. You can customize all.</p>
+            </div>
+            <div class="content">
+                <ul class="primary-menu nav nav-pills">
+                    <!--
+                    <li class="nav-item"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
+                   
+                    <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
+                    -->
+                </ul>
+                <!-- social sharea area -->
+                <div class="social-share-style-1 mt--40">
+
+                    <span class="title">find with me</span>
+                    <ul class="social-share d-flex liststyle">
+                        <li class="facebook"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg></a>
+                        </li>
+                        <li class="instagram"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg></a>
+                        </li>
+                        <li class="linkedin"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end -->
+            </div>
+        </div>
+    </div>
+    <!-- End Popup Mobile Menu  -->
+
+
+
+
+    <main class="main-page-wrapper">
+
+        <!-- Start Contact section -->
+        <div class="rn-contact-area rn-section-gap section-separator" id="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <span class="subtitle">VAAS</span>
+                            <h2 class="title" id='name'></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt--50 mt_md--40 mt_sm--40 mt-contact-sm">
+                    <div class="col-lg-4">
+                        <div class="contact-about-area">
+                            <div class="thumbnail">
+                                <img src="assets/images/Car accident.png" alt="contact-img">
+                            </div>
+                            <div class="title-area">
+                                <h4 class="title">Accidents</h4>
+
+                            </div>
+
+                            <div class="description">
+                                <span id="accident-list">
+
+                                </span>
+
+                            </div>
+                            <div class="social-area" style="position:absolute; bottom:0 ;padding:20px">
+                                <div class="name">FIND US ON SOCIAL PLATFORMS.</div>
+                                <div class="social-icone">
+                                    <a href="#"><i data-feather="facebook"></i></a>
+                                    <a href="#"><i data-feather="linkedin"></i></a>
+                                    <a href="#"><i data-feather="instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos-delay="600" class="col-lg-8 contact-input">
+                        <div class="contact-form-wrapper">
+                            <div class="introduce" style="height:600px;width:800px" id="map">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Contuct section -->
+
+        <!-- Back to  top Start -->
+        <div class="backto-top">
+            <div>
+                <i data-feather="arrow-up"></i>
+            </div>
+        </div>
+        <!-- Back to top end -->
+
+
+
+
+
+        <!-- Start Footer Area -->
+        <div class="rn-footer-area rn-section-gap section-separator">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-area text-center">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="assets/images/vaas logo.png" alt="logo">
+                                </a>
+                            </div>
+                            <p class="description mt--30">© <a target="_blank" href="">VAAS.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <Script>
+          function initMap() {
+            // The location of STCET
+
+            var mapProp = {
+                center: new google.maps.LatLng(22.5388, 88.3289),
+                zoom: 4
+            };
+            // The map, centered at STCET
+            const map = new google.maps.Map(document.getElementById("map"), mapProp);
+            // The marker, positioned at STCET
+            const marker = new google.maps.Marker({
+                position: new google.maps.LatLng(22.5388, 88.3289),
+                map: map,
+            });
+        }
+    </Script>
+    <!-- &callback=initMap -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDMr3UKlq22kU6w509YRAbXpCzolrOhqc&callback=initMap" defer
+        type="text/javascript">
+
+        </script>
+    <script>
+        //function to load position in map by given latitude and longitude
+        function changeMap(lat, lon) {
+            console.log("inside change map fun");
+            var mapProp = {
+                center: new google.maps.LatLng(lat, lon),
+                zoom: 4
+            };
+            // The map, centered at accident location
+            const map = new google.maps.Map(document.getElementById("map"), mapProp);
+            // The marker, positioned at accident location
+            const marker = new google.maps.Marker({
+                position: new google.maps.LatLng(lat, lon),
+                map: map,
+            });
+        }
+        //function to show the accident details in UI this method is called when a notification message is received
+        function updateUI(title, message, lat, lon) {
+            var accidentList = document.querySelector("#accident-list");
+            var currentdate = new Date();
+            var newSpan = document.createElement("span");
+            newSpan.classList.add("new-accident", "mt--30");
+            var heading = document.createElement("div");
+            heading.classList.add("accident-heading");
+            heading.innerHTML = title;
+            newSpan.append(heading);
+            var description = document.createElement("div");
+            description.classList.add("description");
+            description.innerHTML = message + " at " + currentdate.getDate() + "/"
+                + (currentdate.getMonth() + 1) + "/"
+                + currentdate.getFullYear() + " @ "
+                + currentdate.getHours() + ":"
+                + currentdate.getMinutes() + ":"
+                + currentdate.getSeconds();
+            newSpan.append(description);
+            //add a button to show the location in map
+            var mapBtn = document.createElement("button");
+            mapBtn.innerHTML = "Show in Map";
+            newSpan.append(mapBtn);
+            accidentList.append(newSpan);
+            mapBtn.addEventListener("click", function () {
+                changeMap(lat, lon);
+            })
+
+        }
+
+     
+
+    </script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-messaging.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-analytics.js";
+        import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged ,signOut} from "https://www.gstatic.com/firebasejs/9.7.0/firebase-auth.js";
+        import { getDatabase, ref, set, update, onValue } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-database.js"
+
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyCDMr3UKlq22kU6w509YRAbXpCzolrOhqc",
+            authDomain: "vaas-81acf.firebaseapp.com",
+            databaseURL: "https://vaas-81acf-default-rtdb.firebaseio.com",
+            projectId: "vaas-81acf",
+            storageBucket: "vaas-81acf.appspot.com",
+            messagingSenderId: "383486059418",
+            appId: "1:383486059418:web:1af1dd6f1f4daae9d0d023",
+            measurementId: "G-5DDZ330G17"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        const auth = getAuth(app);
+        var profileType="policeStation";
+
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                // User is signed in, see docs for a list of available properties
+                // https://firebase.google.com/docs/reference/js/firebase.User
+                const uid = user.uid;
+                //set hospital name dynamically
+                const db = getDatabase();
+                const name = ref(db, 'hospitals/' + uid + '/hospitalName');
+                onValue(name, (snapshot) => {
+                    
+                    const data = snapshot.val();
+                    if(data==null){
+                        console.log("user not found in hospitals");
+                        const name= ref(db,'policeStations/'+uid+'/policeStationName');
+                        onValue(name,(snapshot)=>{
+                            const policedata = snapshot.val();
+                            console.log("police station name is "+ policedata);
+                            document.querySelector("#name").innerHTML = policedata;
+                            
+                        })
+                    }else{
+                    console.log(data);
+                    document.querySelector("#name").innerHTML = data;
+                    profileType="hospital";
+                    }
+                    console.log("profile type is set as "+profileType);
+                    IntitalizeFireBaseMessaging();
+                }
+                
+                
+                
+                
+                
+                );
+
+                firebase.initializeApp(firebaseConfig);
+                const messaging = firebase.messaging();
+
+                function updateTokenInDatabase(newtoken) {
+                    const db = getDatabase();
+                    console.log("Profile is"+ profileType);
+                    if(profileType=="hospital"){
+                    update(ref(db, "hospitals/" + uid), {
+                        ownNotificationToken: newtoken
+                    })
+                }else{
+                    update(ref(db, "policeStations/" + uid), {
+                        ownNotificationToken: newtoken
+                    })
+                }
+                }
+
+                //firebase messageing initialization for token generation
+                function IntitalizeFireBaseMessaging() {
+                    messaging
+                        .requestPermission()
+                        .then(function () {
+                            console.log("Notification Permission");
+                            return messaging.getToken();
+                        })
+                        .then(function (token) {
+                            console.log(token);
+                            updateTokenInDatabase(token);
+                        })
+                        .catch(function (reason) {
+                            console.log(reason);
+                        });
+                }
+
+                messaging.onMessage(function (payload) {
+                    console.log(payload);
+                    const notificationOption = {
+                        body: payload.data.message,
+                        icon: payload.icon
+                    };
+
+                    if (Notification.permission === "granted") {
+                        var notification = new Notification(payload.data.title, notificationOption);
+                        // document.getElementById("notification").innerHTML=payload.notification.title+"     "+payload.notification.body
+                        // alert("notification received");
+                        updateUI(payload.data.title, payload.data.message, payload.data.latitude, payload.data.longitude);
+
+                        notification.onclick = function (ev) {
+                            ev.preventDefault();
+                            window.open(payload.notification.click_action, '_blank');
+                            notification.close();
+                        }
+                    }
+
+                });
+                messaging.onTokenRefresh(function () {
+                    messaging.getToken()
+                        .then(function (newtoken) {
+                            console.log("New Token : " + newtoken);
+                            updateTokenInDatabase(newtoken);
+                        })
+                        .catch(function (reason) {
+                            console.log(reason);
+                        })
+                })
+                
+                // ...
+            } else {
+                // User is signed out
+                // ...
+                window.location.href = "index.html"
+            }
+        });
+
+        document.getElementById("sign-out").addEventListener("click",
+        function(){
+          
+            signOut(auth).then(() => {
+            // Sign-out successful.
+            window.location.href = "index.html";
+            }).catch((error) => {
+            // An error happened.
+            console.log("cannot logout");
+            });
+
+        })
+
+    </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('../../../firebase-messaging-sw.js');
+            });
+        }
+
+        navigator.serviceWorker.addEventListener('message', event => {
+            console.log("event received from service worker");
+            console.log(event);
+            if (event.data.msg != undefined) {
+                console.log(event.data.msg, event.data.url, event.data.latitude);
+                updateUI("Accident Detected", event.data.msg, event.data.latitude, event.data.longitude);
+            }
+
+        });
+
+
+    </script>
+    <!-- End Footer Area -->
+
+    <!-- JS ============================================ -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/modernizer.min.js"></script>
+    <script src="assets/js/vendor/feather.min.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.js"></script>
+    <script src="assets/js/vendor/text-type.js"></script>
+    <script src="assets/js/vendor/wow.js"></script>
+    <script src="assets/js/vendor/aos.js"></script>
+    <script src="assets/js/vendor/particles.js"></script>
+    <!-- main JS -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
